@@ -1,0 +1,22 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 780px;
+    height: 500px;
+    border: 2px solid cyan;
+    margin: 20px auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.col {
+    width: 16.66%;
+    border: 1px solid black;
+    padding: 8px;
+}
