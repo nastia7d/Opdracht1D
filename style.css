@@ -1,0 +1,48 @@
+
+.container {
+    border: 5px solid purple;
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.col {
+    flex: 1;
+    border: 1px solid black;
+    padding: 12px;
+}
+
+
+@media (max-width: 1200px) {
+    .container {
+        border-color: purple;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .container {
+        border-color: blue;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        border-color: green;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .container {
+        border: 5px solid red;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+}
